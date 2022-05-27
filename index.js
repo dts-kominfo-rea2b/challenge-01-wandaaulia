@@ -2,8 +2,7 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUserColor = ["Yellow", "Pink", "White", "Purple"];
-const firstUserRes = ["Bento", "Sushi", "Pancake", "Eggy",
-                     "Tempura", "Bento", "Eggy", "Padang",
+const firstUserRes = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang",
                      "Tteok", "Sushi", "Sushi"];
 
 const firstEducation = [
@@ -46,8 +45,7 @@ const secondEducation = [
 ];
 
 const secondUserColor = ["Blue", "Black", "Grey"];
-const secondUserRes = ["Tempura", "Bento", "Sushi", "Pancake",
-                     "Padang", "Katsu", "Geprek", "Pancake",
+const secondUserRes = ["Tempura", "Bento", "Sushi", "Pancake","Padang", "Katsu", "Geprek", "Pancake",
                      "Eggy"];
 
 const firstUser = {
