@@ -48,26 +48,57 @@ const secondUserColor = ["Blue", "Black", "Grey"];
 const secondUserRes = ["Tempura", "Bento", "Sushi", "Pancake","Padang", "Katsu", "Geprek", "Pancake",
                      "Eggy"];
 
+ const setArrayC1 =  new Set(firstUserColor);
+ const newColor1 = [];
+
+ for(e of setArrayC1) {
+    newColor1.push(e);
+ }
+ 
+ const setResto1 = new Set(firstUserRes);
+ const newResto1 = [];
+
+ for (e of setResto1) {
+    newResto1.push(e);
+ }
+
+
+ const setArrayC2 =  new Set(secondUserColor);
+ const newColor2 = [];
+
+ for(e of setArrayC2) {
+    newColor2.push(e);
+ }
+ 
+ const setResto2 = new Set(secondUserRes);
+ const newResto2 = [];
+
+ for (e of setResto2) {
+    newResto2.push(e);
+ }
+
+
 const firstUser = {
     name : "Monica",
     gender: "Female",
     age : 17,
     email: "monica@dingdong.com",
-    favoriteColor: new Set(firstUserColor),
+    favoriteColor: newColor1,
     isHavePet : "Yes",
     education :  firstEducation,
-    favoriteRestaurant: new Set(firstUserRes)
+    favoriteRestaurant: newResto1
 };
+
 
 const secondUser = {
     name : "Wendy",
     gender: "Male",
     age : 23,
     email: "wendy@dingdong.com",
-    favoriteColor: new Set(secondUserColor),
+    favoriteColor: newColor2,
     isHavePet : "No",
     education : secondEducation,
-    favoriteRestaurant: new Set(secondUserRes)
+    favoriteRestaurant: newResto2
 };
 
 
